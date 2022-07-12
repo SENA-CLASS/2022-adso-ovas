@@ -1,0 +1,46 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "Objetivos_de_Desarrollo_Sostenible",
+    "title": "1. Objetivos de Desarrollo Sostenible",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/1-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-play-circle",
+        "slug": "Objetivos_de_Desarrollo_Sostenible",
+        "title": "1.1 Descripción ODS, metas propuestas",
+        "anchor": "11"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "Objetivos_de_Desarrollo_Sostenible",
+        "title": "1.2 Plantear el propósito, valores y principios que debería tener una marca para lograr ser ética",
+        "anchor": "12"
+      }    
+    ]   
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "Triple_Bottom_Line",
+    "title": "2. Triple Bottom Line",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/2-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "Ejemplos_de_marcas_sostenibles_en_el_mercado_y_que_de_alguna_manera_son_competitivas",
+    "title": "3. Ejemplos de marcas sostenibles en el mercado y que de alguna manera son competitivas",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/3-tema.html"  
+  }
+]

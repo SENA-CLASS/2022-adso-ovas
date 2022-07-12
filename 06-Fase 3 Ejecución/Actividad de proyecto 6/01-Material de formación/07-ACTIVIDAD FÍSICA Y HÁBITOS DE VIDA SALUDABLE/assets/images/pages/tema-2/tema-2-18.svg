@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="407.197" height="340.146" viewBox="0 0 407.197 340.146">
+  <defs>
+    <filter id="Rectángulo_238" x="0" y="0" width="407.197" height="316.124" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#515151" flood-opacity="0.451"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_3493" data-name="Grupo 3493" transform="translate(-818.894 -6534.758)">
+    <g transform="matrix(1, 0, 0, 1, 818.89, 6534.76)" filter="url(#Rectángulo_238)">
+      <rect id="Rectángulo_238-2" data-name="Rectángulo 238" width="392.197" height="301.124" transform="translate(0.5 0.5)" fill="#fff"/>
+    </g>
+    <rect id="Rectángulo_239" data-name="Rectángulo 239" width="53.933" height="300.903" transform="translate(819.394 6535.258)" fill="#af3376"/>
+    <rect id="Rectángulo_240" data-name="Rectángulo 240" width="33.337" height="338.499" transform="translate(873.327 6568.595) rotate(-90)" fill="#76aadb"/>
+    <text id="Alimento_" data-name="Alimento 
+" transform="translate(872.576 6541.181)" fill="#fff" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="22.717" y="17">Alimento </tspan><tspan x="59.385" y="39"></tspan></text>
+    <text id="Cubalibre_Cerveza_Whiski_Vino_Cava_Sangría" data-name="Cubalibre
+
+Cerveza
+
+Whiski
+
+Vino
+
+Cava
+
+Sangría" transform="translate(872.576 6579.904)" fill="#444242" font-size="16" font-family="OpenSans, Open Sans"><tspan x="16.731" y="17">Cubalibre</tspan><tspan x="52.742" y="39"></tspan><tspan x="23.254" y="61">Cerveza</tspan><tspan x="52.742" y="83"></tspan><tspan x="28.363" y="105">Whiski</tspan><tspan x="52.742" y="127"></tspan><tspan x="36.215" y="149">Vino</tspan><tspan x="52.742" y="171"></tspan><tspan x="34.789" y="193">Cava</tspan><tspan x="52.742" y="215"></tspan><tspan x="24.871" y="237">Sangría</tspan></text>
+    <text id="Ron_Negra_Solo_Tinto_Brut_Con_alcohol" data-name="Ron
+
+Negra
+
+Solo
+
+Tinto
+
+Brut
+
+Con alcohol" transform="translate(994.099 6579.904)" fill="#db9600" font-size="16" font-family="OpenSans, Open Sans"><tspan x="38.626" y="17">Ron</tspan><tspan x="53.314" y="39"></tspan><tspan x="30.697" y="61">Negra</tspan><tspan x="53.314" y="83"></tspan><tspan x="37.236" y="105">Solo</tspan><tspan x="53.314" y="127"></tspan><tspan x="34.298" y="149">Tinto</tspan><tspan x="53.314" y="171"></tspan><tspan x="37.13" y="193">Brut</tspan><tspan x="53.314" y="215"></tspan><tspan x="9.568" y="237">Con alcohol</tspan></text>
+    <text id="_327_110_499_170_80_421" data-name="327
+
+110
+
+499
+
+170
+
+80
+
+421" transform="translate(1097.141 6579.904)" fill="#444242" font-size="16" font-family="OpenSans, Open Sans"><tspan x="45.662" y="17">327</tspan><tspan x="59.385" y="39"></tspan><tspan x="45.662" y="61">110</tspan><tspan x="59.385" y="83"></tspan><tspan x="45.662" y="105">499</tspan><tspan x="59.385" y="127"></tspan><tspan x="45.662" y="149">170</tspan><tspan x="59.385" y="171"></tspan><tspan x="50.237" y="193">80</tspan><tspan x="59.385" y="215"></tspan><tspan x="45.662" y="237">421</tspan></text>
+    <text id="Calorias" transform="translate(1096.421 6541.181)" fill="#fff" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="27.898" y="17">Calorias</tspan></text>
+    <line id="Línea_79" data-name="Línea 79" y2="254.135" transform="translate(993.224 6574.957)" fill="none" stroke="#cecece" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="6"/>
+    <line id="Línea_80" data-name="Línea 80" x1="313.339" transform="translate(887.554 6609.591)" fill="none" stroke="#cecece" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="6"/>
+    <line id="Línea_81" data-name="Línea 81" x1="313.339" transform="translate(887.554 6655.706)" fill="none" stroke="#cecece" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="6"/>
+    <line id="Línea_82" data-name="Línea 82" x1="313.339" transform="translate(887.554 6700.681)" fill="none" stroke="#cecece" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="6"/>
+    <line id="Línea_83" data-name="Línea 83" x1="313.339" transform="translate(887.554 6746.796)" fill="none" stroke="#cecece" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="6"/>
+    <line id="Línea_84" data-name="Línea 84" x1="313.339" transform="translate(887.554 6789.826)" fill="none" stroke="#cecece" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="6"/>
+    <line id="Línea_85" data-name="Línea 85" y2="254.135" transform="translate(1100.727 6574.957)" fill="none" stroke="#cecece" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="6"/>
+    <line id="Línea_86" data-name="Línea 86" y2="23.842" transform="translate(993.223 6539.634)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="6"/>
+    <line id="Línea_87" data-name="Línea 87" y2="23.842" transform="translate(1100.727 6539.634)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="6"/>
+    <text id="BEBIDAS" transform="translate(854.188 6630.033) rotate(-90)" fill="#fff" font-size="25.413" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="-53.569" y="0">BEBIDAS</tspan></text>
+    <g id="Grupo_2193" data-name="Grupo 2193" transform="translate(-1547 17.135)">
+      <path id="Trazado_5930" data-name="Trazado 5930" d="M2415.747,6812.777s-17.835-1.537-17.835-6.072v-44.112h-5.246v44.112c0,4.535-17.835,6.072-17.835,6.072a1.411,1.411,0,0,0,0,2.822h40.916a1.411,1.411,0,0,0,0-2.822Z" fill="#e1e3d5"/>
+      <path id="Trazado_5931" data-name="Trazado 5931" d="M2373.117,6685.816c0,62.948,9.961,83.453,22.172,83.453s22.172-19.551,22.172-83.453Z" fill="#e1e3d5"/>
+      <path id="Trazado_5932" data-name="Trazado 5932" d="M2374.085,6699.522c1.959,64.708,16.618,64.731,21.2,64.731s19.272.909,21.209-64.731Z" fill="#f9d565"/>
+      <path id="Trazado_5933" data-name="Trazado 5933" d="M2398.389,6814.175a.989.989,0,0,1-.989.99h-22.033a.99.99,0,0,1-.99-.99h0a.99.99,0,0,1,.99-.99H2397.4a.99.99,0,0,1,.989.99Z" fill="#fff"/>
+      <path id="Trazado_5934" data-name="Trazado 5934" d="M2394.672,6768.425v-82.609h-15.988c0,61.707,7.17,82.614,16.067,83.415A7.157,7.157,0,0,1,2394.672,6768.425Z" fill="#fff" opacity="0.6"/>
+      <path id="Trazado_5935" data-name="Trazado 5935" d="M2403.115,6755.1a1.882,1.882,0,1,1-1.882-1.882A1.882,1.882,0,0,1,2403.115,6755.1Z" fill="#ffe088"/>
+      <path id="Trazado_5936" data-name="Trazado 5936" d="M2401.917,6737.826a1.881,1.881,0,1,1-1.881-1.882A1.882,1.882,0,0,1,2401.917,6737.826Z" fill="#ffe088"/>
+      <path id="Trazado_5937" data-name="Trazado 5937" d="M2410.812,6726.194a1.881,1.881,0,1,1-1.882-1.882A1.882,1.882,0,0,1,2410.812,6726.194Z" fill="#ffe088"/>
+      <circle id="Elipse_426" data-name="Elipse 426" cx="1.277" cy="1.277" r="1.277" transform="translate(2400.811 6719.443)" fill="#ffe088"/>
+      <circle id="Elipse_427" data-name="Elipse 427" cx="1.277" cy="1.277" r="1.277" transform="translate(2408.43 6703.706)" fill="#ffe088"/>
+      <circle id="Elipse_428" data-name="Elipse 428" cx="1.277" cy="1.277" r="1.277" transform="translate(2411.417 6712.943)" fill="#ffe088"/>
+      <circle id="Elipse_429" data-name="Elipse 429" cx="1.277" cy="1.277" r="1.277" transform="translate(2406.969 6738.602)" fill="#ffe088"/>
+      <circle id="Elipse_430" data-name="Elipse 430" cx="1.277" cy="1.277" r="1.277" transform="translate(2397.39 6745.102)" fill="#ffe088"/>
+      <path id="Trazado_5938" data-name="Trazado 5938" d="M2407.812,6749.116a1.276,1.276,0,1,1-1.276-1.277A1.277,1.277,0,0,1,2407.812,6749.116Z" fill="#ffe088"/>
+      <path id="Trazado_5939" data-name="Trazado 5939" d="M2402.259,6709.088a1.881,1.881,0,1,1-1.881-1.881A1.882,1.882,0,0,1,2402.259,6709.088Z" fill="#ffe088"/>
+    </g>
+  </g>
+</svg>

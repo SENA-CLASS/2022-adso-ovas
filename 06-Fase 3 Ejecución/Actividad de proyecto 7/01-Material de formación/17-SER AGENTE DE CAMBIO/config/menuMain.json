@@ -1,0 +1,60 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "Historia_de_Colombia_en_los_ultimos_50_anos_de_violencia",
+    "title": "1. Historia de Colombia en los últimos 50 años de violencia",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/1-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "Historia_de_Colombia_en_los_ultimos_50_anos_de_violencia",
+        "title": "1.1 Contexto social y político",
+        "anchor": "11"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "Historia_de_Colombia_en_los_ultimos_50_anos_de_violencia",
+        "title": "1.2 Acuerdos que se han llevado a cabo en Colombia",
+        "anchor": "12"
+      }    
+    ]   
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "Fundamentacion_de_los_acuerdos_de_paz",
+    "title": "2. Fundamentación de los acuerdos de paz",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/2-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "La_importancia_de_la_cultura_de_Paz",
+    "title": "3. La importancia de la cultura de Paz",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/3-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "La_importancia_de_la_cultura_de_Paz",
+        "title": "3.1. Resolución de conflictos y negociación",
+        "anchor": "31"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "La_importancia_de_la_cultura_de_Paz",
+        "title": "3.2. Cultura de Paz: concepto",
+        "anchor": "32"
+      }  
+    ]  
+  }
+]

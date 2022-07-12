@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="722" height="259.722" viewBox="0 0 722 259.722">
+  <defs>
+    <filter id="Rectángulo_6474" x="226" y="107.442" width="82" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_31843" data-name="Grupo 31843" transform="translate(-599 -10376.558)">
+    <g id="Grupo_31842" data-name="Grupo 31842" transform="translate(599 10376.558)">
+      <path id="Trazado_66570" data-name="Trazado 66570" d="M1405.618,21.243a40.194,40.194,0,0,0-28.594-11.89h-157.79a12.178,12.178,0,1,0,0,5.649h157.79a34.874,34.874,0,0,1,34.834,34.834V209.885a34.874,34.874,0,0,1-34.834,34.834H1018.694c-19.467,0-38.156-15.579-41.662-34.727l-14.762-80.64-5.557,1.017,14.763,80.64c3.973,21.7,25.155,39.359,47.218,39.359h358.331a40.594,40.594,0,0,0,40.483-40.483V49.836A40.194,40.194,0,0,0,1405.618,21.243Zm-198.228-2.536a6.529,6.529,0,1,1,6.529-6.529A6.536,6.536,0,0,1,1207.391,18.707Z" transform="translate(-695.508)" fill="#ff3648"/>
+      <path id="Trazado_66571" data-name="Trazado 66571" d="M40.483,39.908H208.7c19.423,0,37.566,15.628,40.442,34.837l12.044,80.44,5.587-.837-12.044-80.44c-3.273-21.863-23.922-39.65-46.028-39.65H40.483A40.593,40.593,0,0,0,0,74.742V234.791a40.594,40.594,0,0,0,40.483,40.483H202.029a12.178,12.178,0,1,0,0-5.649H40.483A34.874,34.874,0,0,1,5.649,234.791V74.742A34.874,34.874,0,0,1,40.483,39.908Zm173.39,226.013a6.529,6.529,0,1,1-6.529,6.529A6.536,6.536,0,0,1,213.873,265.921Z" transform="translate(0 -24.905)" fill="#f0a700"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 599, 10376.56)" filter="url(#Rectángulo_6474)">
+      <rect id="Rectángulo_6474-2" data-name="Rectángulo 6474" width="64" height="32" transform="translate(235 113.44)" fill="#fff"/>
+    </g>
+    <rect id="Rectángulo_6475" data-name="Rectángulo 6475" width="88" height="32" transform="translate(821 10490)" fill="#fff"/>
+    <text id="El_programa_de_capacitación_en_seguridad_y_salud_en_el_trabajo_SST_debe_ser_revisado_mínimo_una_vez_al_año_con_la_participación_del_comité_paritario_o_vigía_de_SST_y_la_alta_dirección_de_la_empresa_con_el_propósito_de_identificar_acciones_de_mejora." data-name="El programa de capacitación en seguridad y salud en el trabajo –SST, debe ser revisado mínimo una vez al año, con la participación del comité paritario, o vigía de SST y la alta dirección de la empresa, con el propósito de identificar acciones de mejora." transform="translate(632 10417)" fill="#4d1c0d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">El programa de capacitación en </tspan><tspan x="0" y="35">seguridad y salud en el trabajo –</tspan><tspan x="0" y="55">SST, debe ser revisado mínimo </tspan><tspan x="0" y="75">una vez al año, con la </tspan><tspan x="0" y="95">participación del comité </tspan><tspan x="0" y="115">paritario, o vigía de SST y la alta </tspan><tspan x="0" y="135">dirección de la empresa, con el </tspan><tspan x="0" y="155">propósito de identificar acciones </tspan><tspan x="0" y="175">de mejora.</tspan></text>
+    <text id="El_empleador_proporcionará_a_todo_trabajador_que_ingrese_por_primera_vez_a_la_empresa_independientemente_de_su_forma_de_contratación_y_vinculación_de_manera_previa_al_inicio_de_sus_labores_una_inducción_en_los_aspectos_generales_y_específicos_de_las_act" data-name="El empleador proporcionará a todo trabajador que ingrese por primera vez a la empresa, independientemente de su forma de contratación y vinculación, de manera previa al inicio de sus labores, una inducción en los aspectos generales y específicos de las act" transform="translate(916 10423)" fill="#4d1c0d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">El empleador proporcionará a todo trabajador que ingrese </tspan><tspan x="0" y="35">por primera vez a la empresa, independientemente de su </tspan><tspan x="0" y="55">forma de contratación y vinculación, de manera previa al </tspan><tspan x="0" y="75">inicio de sus labores, una inducción en los aspectos </tspan><tspan x="0" y="95">generales y específicos de las actividades a realizar, que </tspan><tspan x="0" y="115">incluya entre otros: la identificación, el control de peligros y </tspan><tspan x="0" y="135">riesgos en su trabajo, la prevención de accidentes de trabajo </tspan><tspan x="0" y="155">y enfermedades laborales, entre otros aspectos relacionados. </tspan></text>
+  </g>
+</svg>
