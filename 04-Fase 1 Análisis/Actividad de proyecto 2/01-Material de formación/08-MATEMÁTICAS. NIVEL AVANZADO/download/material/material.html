@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Nivel avanzado</title>
+        <meta meta name="description" content="Esta guía aborda los conceptos básicos, algunas aplicaciones de la derivada y la integración.">
+        <link rel="icon" type="image/svg+xml" href="assets/images/logos/senaLogo.svg">
+        <link rel="stylesheet" href="assets/fonts/feather/feather.css">
+        <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.css">
+        <link href="assets/css/fancybox.css" rel="stylesheet">
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body class="theme-dark page-header-textura" id="page-home">
+        <header class="curso-presentacion page-header" id="CursoPresentacion">
+            <div class="page-textura">
+                <div class="container">
+                    <div class="curso-topbar justify-content-center justify-content-md-between"><a class="curso-topbar__logo"><svg xmlns="http://www.w3.org/2000/svg" width="168.273" height="164.177" viewBox="0 0 168.273 164.177">
+                                <path id="SENA_LOGO" data-name="SENA LOGO" d="M85.349,1a18.09,18.09,0,1,0,18.09,18.09h0A18.1,18.1,0,0,0,85.349,1ZM25.617,42.983a33.722,33.722,0,0,0-9.386,1.024,11.156,11.156,0,0,0-5.12,2.56A5.346,5.346,0,0,0,10.086,52.2c.683,1.707,2.56,2.9,4.608,3.584,4.437,1.536,9.386,1.877,13.994,2.731a5.1,5.1,0,0,1,2.389,1.024,1.369,1.369,0,0,1-.683,2.048,9.146,9.146,0,0,1-5.291.683A8.354,8.354,0,0,1,20.5,61.244a1.962,1.962,0,0,1-.853-2.389H9.233A7.663,7.663,0,0,0,10.6,63.463a7.59,7.59,0,0,0,4.267,2.389A28.541,28.541,0,0,0,23.4,66.876,52.426,52.426,0,0,0,35,66.023a11.043,11.043,0,0,0,5.8-2.9,5.358,5.358,0,0,0-1.365-8.533,21.267,21.267,0,0,0-5.8-2.048c-3.072-.683-5.973-1.024-9.045-1.536a9.114,9.114,0,0,1-3.072-.853,1.226,1.226,0,0,1,0-2.219,9.369,9.369,0,0,1,4.437-.683,10.554,10.554,0,0,1,4.608.853A1.877,1.877,0,0,1,31.59,49.81h9.9a5.669,5.669,0,0,0-1.195-3.584A8.875,8.875,0,0,0,35.515,43.5c-3.584-.341-6.827-.512-9.9-.512Zm21.333.683V67.217H75.792V62.1H57.531V57.489H73.744V52.54H57.531V48.786H75.109v-5.12Zm47.615,0H81.253V67.217H91.322V51.346l13.824,15.872h13.824V43.666H108.9v15.7Zm42.495,0L120.676,67.217h10.581l2.56-4.267H150.2l2.389,4.267h11.776l-15.53-23.551ZM142.35,49.3l5.12,8.533h-10.41ZM.7,74.044l.171,12.8L49,86.673c2.389.512,3.925,2.048,3.413,5.8l-29.7,51.711,9.557,9.045L78.01,74.044Zm91.646,0L137.4,152.89l9.9-8.874L117.433,92.3c-.512-3.584.853-5.291,3.413-5.8l48.127.171V74.044ZM84.837,87.185,42.512,159.546l11.264,5.461,28.159-47.615a4.283,4.283,0,0,1,2.9-1.195,4.681,4.681,0,0,1,3.072,1.195l28.159,47.786,11.605-5.973Z" transform="translate(-0.7 -1)" fill="#FF6B00" />
+                            </svg>
+                        </a><a class="curso-topbar__menubar collapsed btn-menu-responsive d-none" data-toggle="collapse" href="#curso-topbar__nav" aria-expanded="false"><span></span><span></span><span></span></a>
+                        <nav class="curso-topbar__nav collapse show d-none d-md-block" id="curso-topbar__nav">
+                            <ul class="curso-topbar__list">
+                                <li class="curso-topbar__item"><a class="curso-topbar__link text-white" href="#IndiceTematico"><span>Índice temático</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link text-white" href="#Creditos"><span>Créditos</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="curso-portada">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <h3 class="curso-subtitulo" id="curso-titulo-componente">Matemáticas</h3>
+                                <h1 class="curso-titulo" id="curso-titulo-tema">Nivel avanzado</h1>
+                                <div class="brand-line-primary"></div>
+                                <p class="curso-descripcion"><b>Esta guía aborda los conceptos básicos, algunas aplicaciones de la derivada y la integración.</b></p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="d-none d-lg-block"><img class="curso-imagen" src="assets/images/header/header_media.png" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="mainContent">
+            <div id="tema-1">
+                <div class="container" id="estadistica">
+                    <div class="header-ecored">
+                        <h1>1. Conceptos de la derivada</h1>
+                    </div>
+                    <div class="card shadow"><img class="img-fluid" src="assets/images/pages/img1.png" style="max-width: 100%">
+                        <div class="card-body">
+                            <p>En nuestro diario vivir nos encontramos con situaciones que van cambiando según las circunstancias, por ejemplo, ir en un carro de una ciudad A, a una ciudad B de Colombia, registrará diferentes velocidades dependiendo del camino, tráfico y otros elementos. Otra situación es el cambio de temperatura que sufre un buen chocolate caliente, a medida que pasa el tiempo este se enfría, por lo menos queda a temperatura ambiente o al clima como dicen en muchas partes del país; y así se tienen muchos ejemplos más de cambios de situaciones cotidianas y como se mencionó en temas anteriores, estas situaciones se relacionan con funciones, ¿y los cambios?, estos se relacionan con derivadas.</p>
+                            <p class="mt-3">Las derivadas, así como las funciones, están en todas partes, ya que registra el cambio o variación de la función, así que podemos realizar análisis de diferentes situaciones a partir de la derivada.</p>
+                        </div>
+                    </div><br id="definicion">
+                    <div class="header-ecored">
+                        <h2>1.1 Definición geométrica de la derivada</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <div class="row align-items-center">
+                            <div class="col-auto"><img class="img-fluid img-a" src="assets/images/pages/img2.png" style="max-width: 90%"></div>
+                            <div class="col">
+                                <p>Para acercarnos al concepto de derivada, se toma un problema de velocidad. En la siguiente gráfica se muestra el desplazamiento s de un vehículo en función del tiempo t.</p>
+                                <p>Con esta información podemos calcular la velocidad promedio del vehículo, que será la variación de la posición dividida entre la variación del tiempo.</p>
+                            </div>
+                        </div>
+                        <div class="row mt-4 bg-color1">
+                            <div class="col-12 p-4 bg-color2">
+                                <h3 class="text-center mb-0 text-white">¿Y qué es la variación de la posición y del tiempo?</h3>
+                            </div>
+                            <div class="col-12 p-4">
+                                <p>La variación será la diferencia entre un punto final menos un punto inicial. La variación se representa con el símbolo delta ∆.</p>
+                                <p>Si t en un tiempo inicial, y t + h es un tiempo final, donde h representa un valor después de t , entonces, la variación del tiempo será:</p>
+                                <p class="my-4 text-center">∆t = t<sub>0 </sub>+ h - t<sub>0 </sub>= h</p>
+                                <p>La distancia inicial será la posición de s en t , es decir la posición inicial es s(t ), por lo tanto, la posición final es s(t +h). Entonces:</p>
+                                <p class="mb-0 text-center">∆s = s( t<sub>0 </sub>+ h ) - s ( t<sub>0 </sub>)</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p>En la siguiente gráfica se ve la representación de la posición y del tiempo, donde A<sub>0 </sub>en la coordenada del punto A<sub>0 </sub>( t<sub>0</sub>, s ( t<sub>0 </sub>) ) y A ( t<sub>0 </sub>+ h, s ( t<sub>0 </sub>+ h ) ) y h es cualquier lapso de tiempo después de t.</p>
+                            </div>
+                            <div class="col-auto"><img class="img-fluid img-a" src="assets/images/pages/img3.png" style="max-width: 90%"></div>
+                        </div>
+                        <div class="hr"></div>
+                        <p>Como se mencionó, la velocidad promedio en el cociente entre la variación de la posición y la variación del tiempo, esto es:</p><img class="img-fluid img-a" src="assets/images/pages/img4.png" style="max-width: 90%">
+                        <p>Lo anterior se conoce también como cociente incremental.</p>
+                        <div class="row mt-4 bg-color1">
+                            <div class="col-12 p-4 bg-color2">
+                                <h3 class="text-center mb-0 text-white">¿Pero qué significa el cociente incremental?</h3>
+                            </div>
+                            <div class="col-12 p-4">
+                                <p>Gráficamente, el cociente incremental no es más que la pendiente de la recta que pasa por los puntos:</p>
+                                <p class="my-4 text-center">A<sub>0 </sub>( t<sub>0 </sub>, s ( t<sub>0 </sub>) ) y A ( t<sub>0 </sub>+ h , s ( t<sub>0 </sub>+ h ) )</p>
+                                <p class="mb-0">Esta recta, es secante a la curva dada por s(t). La pendiente de la recta en este caso, es la velocidad promedio <i>Vprom</i></p>
+                            </div>
+                        </div>
+                        <p class="mt-4">Ahora, si varía el valor de h de manera que sea muy cercano a cero, es decir que todos los valores de t + h<sub>0 </sub>sean muy cercanos a t<sub>0 </sub>, se obtendrán diferentes rectas secantes con sus respectivas velocidades promedio como se observa en la siguiente animación.</p>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-10">
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="media/documentos/Video1.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                            </div>
+                        </div>
+                        <h3 class="mt-5 txt-color2">Ejemplo</h3><img class="img-fluid img-a" src="assets/images/pages/img5.png" style="max-width: 60%">
+                        <div class="row justify-content-around my-4">
+                            <div class="col-8 bg-color1 p-4">
+                                <p>El movimiento de un vehículo está dado por:</p>
+                                <p class="text-center">s ( t ) = -0.4t<sup>2 </sup>+ 8t</p>
+                                <p class="mb-0">con s en kilómetros y t en horas.</p>
+                            </div>
+                        </div>
+                        <p>Para un t<sub>0 </sub>= 4 horas entonces.</p>
+                        <div class="row justify-content-around my-4">
+                            <div class="col-8 bg-color1 p-4">
+                                <p class="mb-0 text-center">s ( t<sub>0 </sub>) = s ( 4 ) = -0.4 ( 4 )<sup>2 </sup>+ 8 ( 4 ) = 25.6 km</p>
+                            </div>
+                        </div>
+                        <p>Ahora h toma cualquier valor, en este caso un tiempo después de t<sub>0 </sub>, sea h = 13 horas, entonces:</p>
+                        <div class="row justify-content-around my-4">
+                            <div class="col-8 bg-color1 p-4">
+                                <p class="mb-0 text-center">s ( t<sub>0 </sub>+ h ) = s ( 4 + 13 ) = s ( 17 ) = -0.4 ( 17 )<sup>2 </sup>+ 8 ( 17 ) = 20.4 km</p>
+                            </div>
+                        </div>
+                        <p>Se calcula la velocidad promedio:</p><img class="img-fluid img-a" src="assets/images/pages/img6.png" style="max-width: 70%"><img class="img-fluid img-a" src="assets/images/pages/img7.png" style="max-width: 100%">
+                        <p>Se varía h, se ve las diferentes velocidades promedio, ver la siguiente animación:</p>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-10">
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="media/documentos/Video1.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                            </div>
+                        </div>
+                        <p class="mt-4">Como se pudo observar el punto A<sub>0 </sub>( t<sub>0</sub>, s ( t<sub>0 </sub>) ), permanece fijo y solo el punto A ( t<sub>0 </sub>+ h, s ( t<sub>0 </sub>+ h ) ), se desplazó en dirección al punto A<sub>0</sub>. Esto es porque se está variando h con valores pequeños cercanos a cero. Esta variación llevará a que en algún momento A se superponga a A<sub>0</sub>, lo que significa que no se formarán una recta secante, sino una recta tangente a la curva dada por s en punto A<sub>0</sub>.</p><img class="img-fluid img-a" src="assets/images/pages/img8.png" style="max-width: 100%">
+                        <p>Ahora v<sub>0</sub>, es la velocidad instantánea en t<sub>0</sub>, lo cual significa que podemos calcular la velocidad instantánea en cualquier tiempo t<sub>0</sub>, por lo tanto</p><img class="img-fluid img-a" src="assets/images/pages/img9.png" style="max-width: 100%">
+                        <h3 class="mt-5 txt-color2">Ejemplo</h3>
+                        <p>Un objeto es lanzado hacia arriba desde una altura de 7 metros, su trayectoria s en metros en cada momento segundo t es:</p>
+                        <div class="row justify-content-around my-4">
+                            <div class="col-8 bg-color1 p-4">
+                                <p class="mb-0 text-center">s ( t ) = -4.9t<sup>2 </sup>+ 7t + 7</p>
+                            </div>
+                        </div><img class="img-fluid img-a" src="assets/images/pages/img10.png" style="max-width: 100%">
+                        <p>El signo en la velocidad instantánea se debe a que el objeto en algún momento está subiendo y va en contra de la gravedad y luego a favor de esta.</p>
+                    </div><br id="derivada">
+                    <div class="header-ecored">
+                        <h2>1.2 Derivada de una función en un punto</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow"><img class="img-fluid img-a" src="assets/images/pages/img11.png" style="max-width: 90%">
+                        <p>es la derivada de la función f en el punto x<sub>0</sub>.</p>
+                        <div class="hr"></div><img class="img-fluid img-a" src="assets/images/pages/img12.png" style="max-width: 90%">
+                        <h3 class="mt-5 txt-color2">Ejemplo</h3>
+                        <div class="row justify-content-around my-4">
+                            <div class="col-8 bg-color1 p-4">
+                                <p class="text-center">Considere la función</p>
+                                <p class="text-center">f(x) = 3x<sup>2 </sup>y x<sub>0 </sub>= 4</p>
+                                <p class="text-center">se quiere encontrar f' ( 3 )</p>
+                            </div>
+                        </div>
+                        <h3 class="mt-5 txt-color2">Solución</h3><img class="img-fluid img-a" src="assets/images/pages/img13.png" style="max-width: 90%">
+                    </div><br id="calculo">
+                    <div class="header-ecored">
+                        <h2>1.3 Cálculo de la derivada</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow"><img class="img-fluid img-a" src="assets/images/pages/img14.png" style="max-width: 90%"></div><br id="derivadas">
+                    <div class="header-ecored">
+                        <h2>1.4 Derivadas de funciones trascendentes</h2>
+                    </div>
+                    <div class="card shadow"><img class="img-fluid" src="assets/images/pages/img15.png" style="max-width: 100%">
+                        <div class="card-body">
+                            <p>Las funciones trascendentes son un tipo de funciones donde la variable independiente aparece como una potencia, como parte del argumento de un logaritmo o el ángulo de una función trigonométrica, estas funciones son:</p>
+                            <div class="row justify-content-center">
+                                <div class="col-11">
+                                    <div class="list align-items-start mt-4">
+                                        <div class="list__item">
+                                            <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                        </div>
+                                        <div class="list__txt">
+                                            <p class="mt-1"><b>Funciones trigonométricas</b></p>
+                                            <p>(seno, coseno, tangente, secante, cosecante, cotangente)</p>
+                                        </div>
+                                    </div>
+                                    <div class="list align-items-start mt-4">
+                                        <div class="list__item">
+                                            <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                        </div>
+                                        <div class="list__txt">
+                                            <p class="mt-1"><b>Función Exponencial</b></p>
+                                        </div>
+                                    </div>
+                                    <div class="list align-items-start mt-4">
+                                        <div class="list__item">
+                                            <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                        </div>
+                                        <div class="list__txt">
+                                            <p class="mt-1"><b>Función Logarítmica</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><img class="img-fluid img-a" src="assets/images/pages/img16.png" style="max-width: 90%">
+                            <p>En este curso las derivadas de las funciones trascendentes las denotaremos como reglas de derivación:</p><img class="img-fluid img-a" src="assets/images/pages/img17.png" style="max-width: 90%">
+                        </div>
+                    </div><br id="regla">
+                    <div class="header-ecored">
+                        <h2>1.5 Regla de L'Hopital</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>La regla de L’Hopital nos ayuda a evaluar límites indeterminados de la forma 0/0, o ∞/∞ cuando se sustituye el límite. Estas son límites de funciones de la forma f(x)/(g(x)) y esta regla consiste derivar el numerador y el de denominador como dos funciones independientes siempre que exista la deriva en ese punto, la veces que sea necesario hasta encontrar el límite siempre que el resultado anterior sea de la forma 0/0, o ∞/∞.</p><img class="img-fluid img-a" src="assets/images/pages/img18.png" style="max-width: 90%">
+                        <h3 class="mt-5 txt-color2">Aplicación</h3>
+                        <p>La población de cierta clase de bacteria, en un ambiente controlado, se puede modelar con la siguiente función:</p><img class="img-fluid img-a" src="assets/images/pages/img19.png" style="max-width: 90%">
+                        <p>donde P es la población de bacterias cada t horas.</p>
+                        <p>Si el tiempo pasa indefinidamente, ¿cómo será el tamaño de la población?</p>
+                        <h3 class="mt-5 txt-color2">Solución</h3>
+                        <p>Como el tiempo pasa indefinidamente, se considera t → ∞, por lo tanto, analizaremos el límite de la función P(t)</p><img class="img-fluid img-a" src="assets/images/pages/img20.png" style="max-width: 90%">
+                        <p>Evaluado directamente el límite se obtiene:</p><img class="img-fluid img-a" src="assets/images/pages/img21.png" style="max-width: 90%">
+                        <p>Evaluado directamente el límite se obtiene:</p><img class="img-fluid img-a" src="assets/images/pages/img22.png" style="max-width: 90%">
+                        <div class="row justify-content-around my-4">
+                            <div class="col-8 bg-color1 p-4">
+                                <p class="mb-0">Esto significa que esta bacteria en el ambiente controlado después de mucho tiempo, su población tenderá a tener 25 bacterias.</p>
+                            </div>
+                        </div>
+                    </div><br id="criterio">
+                    <div class="header-ecored">
+                        <h2>1.6 Criterios de la primera y segunda derivada (puntos críticos, máximo, mínimos)</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>Antes de hablar de máximo y mínimos relativos, mencionaremos los puntos críticos.</p><img class="img-fluid img-a" src="assets/images/pages/img23.png" style="max-width: 90%">
+                        <h3 class="mt-5 txt-color2">Criterio primera derivada</h3>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-10">
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/eh-NDkH-hXk" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                            </div>
+                        </div>
+                        <h3 class="mt-5 txt-color2">Criterio segunda derivadas</h3>
+                        <p>Sea una función y uno de sus puntos críticos. Entonces:</p>
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <div class="list align-items-start mt-4">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">si , la función tiene un máximo en</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-4">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">si , la función tiene un punto de inflexión en </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><img class="img-fluid img-a" src="assets/images/pages/img24.png" style="max-width: 60%">
+                        <div class="hr"></div>
+                        <h3 class="mt-5 txt-color2">Ejemplo</h3>
+                        <p>Sea la función:</p>
+                        <div class="row justify-content-around my-4">
+                            <div class="col-8 bg-color1 p-4">
+                                <p class="mb-0 text-center">f(x) = 0.2x<sup>3 </sup>- 0.3x<sup>2 </sup>- 7.2x - 0.2</p>
+                            </div>
+                        </div>
+                        <p>Como se puede ver en la gráfica tiene un punto máximo relativo y un punto mínimo relativo.</p><img class="img-fluid img-a" src="assets/images/pages/img25.png" style="max-width: 90%"><img class="img-fluid img-a" src="assets/images/pages/img26.png" style="max-width: 90%">
+                    </div>
+                </div>
+            </div>
+            <div id="tema-2">
+                <div class="container" id="concepto2">
+                    <div class="header-ecored">
+                        <h1>2. Conceptos básicos de integración</h1>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>Proceso que permite restituir una función que ha sido previamente derivada. Es decir, la operación opuesta de la derivada, así como la suma es a la resta.</p>
+                        <p>Por conveniencia se introduce una notación para la antiderivada de una función.</p>
+                        <div class="row justify-content-around my-4">
+                            <div class="col-8 bg-color1 p-4">
+                                <p class="mb-0 text-center">Si F(x) = f(x), se representa</p>
+                            </div>
+                        </div><img class="img-fluid img-a" src="assets/images/pages/img27.png" style="max-width: 90%">
+                        <p>A continuación, se hace el ejemplo de una integral de un monomio.</p>
+                        <div class="row justify-content-around my-4">
+                            <div class="col-8 bg-color1 p-4">
+                                <p class="mb-0 text-center">Vamos a integrar la F(x) = 4 y lo vamos a evaluar entre 0 y 1.</p>
+                            </div>
+                        </div><img class="img-fluid img-a" src="assets/images/pages/img28.png" style="max-width: 90%">
+                    </div>
+                </div>
+            </div>
+            <div id="glosario">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Glosario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p> <strong class="mr-2">Recta tangente:</strong>es una recta que toca a la curva en un solo punto.</p>
+                        <p> <strong class="mr-2">Recta secante:</strong>es una recta que corta a una curva en 2 puntos. Conforme estos puntos se acercan y su distancia se reduce a cero, la recta adquiere el nombre de recta tangente.</p>
+                        <p> <strong class="mr-2">Velocidad:</strong>es la magnitud física que relaciona el cambio de posición (o desplazamiento) con el tiempo.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="anexos">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Material complementario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <table class="table table-bordered table-striped">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Nombre del documento o material</th>
+                                    <th>Tipo de material</th>
+                                    <th>Enlace del recurso</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="referencias">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Referencias bibliográficas</h1>
+                    </div>
+                    <div class="jumbotron bg-white referencias">
+                        <p>Budnick, F., 1997. Matemáticas Aplicadas para Administración, Economía y Ciencias Sociales, Tercera Edición. Mc. Graw Hill. México.</p>
+                        <hr>
+                        <p>Francisco Soler, R. N. (2008). Cálculo con aplicaciones. Pearson Educación de Colombia, LTDA.</p>
+                        <hr>
+                        <p>Hernández, E. (9 de octubre 2020). Criterio de la primera derivada para determinar los máximos y los mínimos de una función.<a class="ml-2" href="https://tecdigital.tec.ac.cr/revistamatematica/cursos-linea/CALCULODIFERENCIAL/curso-elsie/aplicacionesderivada/html/node4.html" target="_blank">https://tecdigital.tec.ac.cr/revistamatematica/cursos-linea/CALCULODIFERENCIAL/curso-elsie/aplicacionesderivada/html/node4.html</a></p>
+                        <hr>
+                        <p>Matemáticas Razonamiento y aplicaciones, Decimosegunda Edición, Pearson 2013.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="Creditos">
+            <div class="container">
+                <h1>Créditos </h1>
+                <div class="brand-line-primary"></div>
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h3 class="footer-subtitulo mb-4">ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES </h3>
+                        <p class="footer-texto mb-2"><strong>Ingry Dayanna Bonilla Monzón</strong><br /> <span class="text-small">Líder del equipo</span></p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-5">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Contenido Instruccional
+                        </h4>
+                        <p class="footer-texto mb-2"><strong>Gloria Matilde Lee Mejía </strong><br /> <span class="text-small">Responsable del equipo</span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Comercio y Servicios</span><br><span class="text-small">Regional Tolima</span></p>
+                        <p class="footer-texto mb-2"><strong>Rafael Nelftalí Lizcano Reyes</strong><br /> <span class="text-small">Asesor pedagógico<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro industrial del diseño y la manufactura </span><br><span class="text-small">Regional Santander</span></p>
+                        <p class="footer-texto mb-2"><strong>Oscar Andrés Hernández</strong><br /><span class="text-small">Experta tematica<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Servicio y Gestión Empresarial</span><br><span class="text-small">Regional Antioquia</span></p>
+                        <p class="footer-texto mb-2"><strong>Nathaly Ramírez</strong><br /><span class="text-small">Experto tematico<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Formación en Diseño y Confección y Moda</span><br><span class="text-small">Regional Antioquia</span></p>
+                        <p class="footer-texto mb-2"><strong>Carlos Andrés Rodríguez</strong><br /><span class="text-small">Diseñador instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Diseño y Metrología</span><br><span class="text-small">Regional Distrito Capital</span></p>
+                        <p class="footer-texto mb-2"><strong>Gloria Esperanza Ortiz Russi</strong><br /><span class="text-small">Evaluador instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Diseño y Metrología</span><br><span class="text-small">Regional Distrito Capital</span></p>
+                        <p class="footer-texto mb-2"><strong>Martha Isabel Martínez Vargas</strong><br /><span class="text-small">Revisora de estilo<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro Industrial Del Diseño Y La Manufactura</span><br><span class="text-small">Regional Santander</span></p>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Diseño y desarrollo de recursos educativos digitales
+                        </h4>
+                        <p class="footer-texto mb-2"><strong>Francisco José Lizcano Reyes </strong><br /> <span class="text-small">Responsable del equipo<br /></span></p>
+                        <p class="footer-texto mb-2"><strong>Leyson Fabian Castaño Perez</strong><br /> <span class="text-small">Integración de recursos y pruebas<br /></span></p>
+                        <p class="footer-texto mb-2"> <strong>José Jaime Luis Tang Pinzón</strong><br /><span class="text-small">Diseño web & producción audiovisual<br /></span></p>
+                        <p class="footer-texto mb-2"><strong>Jhon Jairo Urueta Alvarez</strong><br /><span class="text-small">Desarrollo Front-End<br /></span></p>
+                        <p class="footer-texto mb-2"><span class="text-small text-uppercase">Centro industrial del diseño y la manufactura </span><br><span class="text-small">Regional Santander</span></p>
+                        <h4 class="footer-subtitulo-2 mt-4">
+                            <div class="fa fa-caret-right mr-2"></div>Gestores de repositorio
+                        </h4>
+                        <p class="footer-texto"> <strong>Brayan Steven Pinto Diaz</strong><br />
+                            <strong>Ricardo Alfonso Gonzalez Vargas</strong><br /><span class="text-small">Validación de recursos<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO DE COMERCIO Y SERVICIOS</span><br><span class="text-small">Regional Tolima</span></p>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="d-flex flex-column justify-content-center"><img src="assets/images/logos/senaLogo.svg" style="max-width:100px"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section id="cc">
+            <div class="container">
+                <div class="d-flex flex-column flex-sm-row"><span class="pr-3"><i class="icon cc"></i></span><span>Este material puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. No se puede obtener ningún beneficio comercial y las obras derivadas tienen que estar bajo los mismos términos de la licencia que el trabajo original.</span></div>
+            </div>
+        </section><a class="scroll-to-top-btn">
+            <div class="fa fa-angle-up fa-2x"></div>
+        </a>
+        <script src="assets/js/vendor.js"></script>
+        <script src="js/local.js"></script>
+    </body>
+</html>
